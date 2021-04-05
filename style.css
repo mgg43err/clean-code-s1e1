@@ -5,42 +5,42 @@
   font-family: Lato, sans-serif;
 }
 
-.matrix {
+.body__matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.matrix img {
+.body__matrix img {
   width: 100%;
 }
 
-.matrix .more-inform {
+.body__matrix .body__matrix_more-inform {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .matrix {
+  .body__matrix {
     text-align: center;
   }
 
 }
 
-.centered-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
-.task {
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-wrapper {
+.task {
   display: flex;
 }
 
