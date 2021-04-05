@@ -16,7 +16,8 @@
   width: 100%;
 }
 
-.body__matrix .body__matrix_more-inform {
+.body__matrix,
+.body__matrix_more-inform {
   font-family: fantasy, cursive;
 }
 
